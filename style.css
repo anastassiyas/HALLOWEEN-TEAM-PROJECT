@@ -30,8 +30,8 @@
          4px 36px 1px #FD0000,
          4px 38px 1px #FE0000,
          4px 40px 2px #FF0000;
-      }
-  }
+        }
+    }
   .invite{
     font-family: 'Jolly Lodger', cursive;
     font-size: 20px;
@@ -47,9 +47,9 @@
       text-align: center;
    
   }
-  .image1{
+  /* .image1{
       
-  }
+  } */
 .heading {
     text-align: center; 
   }
