@@ -1,0 +1,92 @@
+body {
+    background-color: orange;
+    background-image: -webkit-linear-gradient(-225deg, #f8e8b4 #f5d468);
+    background-image: linear-gradient(-80deg, #f8e8b4 5%, #f5d468);
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+  }
+  
+h1 {
+  text-align: center;
+  color: black;
+}
+body {
+    background-color: beige;
+}
+.flexbox-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+
+}
+
+.flexbox-item { 
+height: 250px;
+width: 380px;
+border: double rgb(236, 134, 17) 10px;
+
+}
+
+.flexone {
+flex-shrink: 0;
+}
+
+.flextwo {
+flex-grow: 1;
+}
+
+.flexthree {
+flex-shrink: 0;    
+}
+
+.containertwo {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.flexfour {
+flex-grow: 1;
+flex-shrink: 1;    
+}
+
+.flexfive {
+flex-grow: 1;
+flex-shrink: 1; 
+
+}
+.flexsix {
+    flex-grow: 1;
+    flex-shrink: 1;
+} 
+img {
+min-width: 100%;
+min-height: 100%;
+height: 250px;
+width: 380px;
+}
+.containerthree {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: space-around;
+}
+.flexseven {
+flex-grow: 1;
+flex-shrink: 1;    
+}
+    
+.flexeight {
+flex-grow: 1;
+flex-shrink: 1; 
+}
+
+.flexnine {
+flex-grow: 1;
+flex-shrink: 1; 
+}
