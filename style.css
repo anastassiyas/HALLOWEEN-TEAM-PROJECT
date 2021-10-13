@@ -1,12 +1,13 @@
-body {
-    background-color:black;
-    background-image: -webkit-linear-gradient(-225deg, #52514e #363635);
-    background-image: linear-gradient(-80deg, #4d4e4e  3%, #050505);
-    
-}
+
+/* start styling for Ana's section */
+
+/* end styling for Ana's section */
+/* start styling for Emily's section */
+
 
 .blood,
 .bloodone {
+
     font-family: nosifer;
     color: #FF0000;
     font-size:2.5em;
@@ -38,56 +39,73 @@ body {
          4px 36px 1px #FD0000,
          4px 38px 1px #FE0000,
          4px 40px 2px #FF0000;
-}
-}
+
+}}
   .invite{
     font-family: 'Jolly Lodger', cursive;
     font-size: 20px;
     text-align: center;
-}
+
+    color:black;
+  }
+  .blood{
+      text-align: center;
+     
+  }
+
   
+
   .invite2{
       font-family: 'jolly lodger';
       font-size: 40px;
       text-align: center;
-}
-#logo {
-float: left;
-width: 500px;
- }
-.heading {
-text-align: center; 
+
+      color: greenyellow;
+   
+  }
+  .image1{
+      border-radius: 50%;
+  }
+  .image1:hover{
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+  
+/* end styling for Emily's section */
+  /* start style for Anthony's section */
+  .mb-2{
+      font-family: 'Jolly Lodger', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: purple;
+  }
+
+  .mb-6{
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: yellowgreen;
+  }
+
 }
 
-.heading h1 {
-position: absolute;  
-display: inline-block;
-}
-
-.blood {
-    text-align: center;
-    color:silver;
-    font-weight: bold;
-    font-size: 60px; 
-}  
-.bloodone {
-        text-align: center;
-        color:silver;
-        font-weight: bold;
-        font-size: 30px;   
-}
-.menu,
-.menu ul,
-.menu li,
-.menu a {
-    
-    list-style: none;
-    padding: 0;
-	margin: 0 auto;
-    text-align: center;
-	border: none;
-	outline: none;
-}
 
 /* Menu */
 .menu {	
@@ -207,4 +225,5 @@ display: inline-block;
  }
 .menu a.signout { background: url(../img/arrow.png) no-repeat 6px center;
  }
+
 
